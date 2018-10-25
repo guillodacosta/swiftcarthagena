@@ -6,7 +6,9 @@
 //  Copyright © 2018 Guillo Dacosta. All rights reserved.
 //
 
+// Commented by Guillo
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for fabButton.
 FOUNDATION_EXPORT double fabButtonVersionNumber;

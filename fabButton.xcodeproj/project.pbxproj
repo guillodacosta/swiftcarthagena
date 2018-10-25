@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6A103A5C2182664C00BB6781 /* fabButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A103A5A2182664C00BB6781 /* fabButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A103A622182667300BB6781 /* fabButton.h in Sources */ = {isa = PBXBuildFile; fileRef = 6A103A5A2182664C00BB6781 /* fabButton.h */; };
+		6A103A642182668300BB6781 /* fabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103A632182668300BB6781 /* fabButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A103A572182664C00BB6781 /* fabButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fabButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A103A5A2182664C00BB6781 /* fabButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fabButton.h; sourceTree = "<group>"; };
 		6A103A5B2182664C00BB6781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A103A632182668300BB6781 /* fabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,7 @@
 			children = (
 				6A103A5A2182664C00BB6781 /* fabButton.h */,
 				6A103A5B2182664C00BB6781 /* Info.plist */,
+				6A103A632182668300BB6781 /* fabButton.swift */,
 			);
 			path = fabButton;
 			sourceTree = "<group>";
@@ -130,6 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A103A622182667300BB6781 /* fabButton.h in Sources */,
+				6A103A642182668300BB6781 /* fabButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
